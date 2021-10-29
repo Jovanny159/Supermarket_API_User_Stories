@@ -1,6 +1,6 @@
 FROM golang:1.16-alpine
 
-WORKDIR /app
+WORKDIR cmd/app
 
 COPY app ./
 COPY go.sum ./
